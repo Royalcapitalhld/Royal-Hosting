@@ -1,0 +1,15 @@
+royal-hosting-public/
+├── business1/
+│   ├── docker-compose.yml.example        # Template only, no secrets
+│   ├── snapper-config.json.example
+│   └── README.md                         # Docs for this service
+├── business2/
+│   ├── docker-compose.yml.example
+│   ├── snapper-config.json.example
+│   └── README.md
+├── scripts/
+│   ├── btrfs-backup.sh                   # Generic, no credentials
+│   ├── maintenance.sh                    # For cron jobs, periodic tasks
+│   └── README.md                         # How to run scripts
+├── README.md                             # Overall Royal Hosting docs
+└── .gitignore                            # Exclude secrets, data folders
